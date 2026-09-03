@@ -2,7 +2,11 @@
 
 Homebrew tap for [cuonggt](https://github.com/cuonggt)'s tools.
 
+- [omassh](https://github.com/cuonggt/omassh) — A keyboard-driven SSH client for the terminal
+- [rove](https://github.com/cuonggt/rove) — A terminal console for the Linux servers you already reach over ssh
+
 ```
+brew install --cask cuonggt/tap/omassh
 brew install --cask cuonggt/tap/rove
 ```
 
