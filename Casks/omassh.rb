@@ -7,25 +7,25 @@ cask "omassh" do
         must_succeed: false
   end
 
-  version "0.20.1"
+  version "0.20.2"
 
   on_macos do
     on_arm do
-      sha256 "c20ceee4efbeb59a441e8dcbe0ee9c4e112c1ea914f437074e74fd97171caf5d"
+      sha256 "04e39570eb90a47ed287834be190c4246f713e6b469a06ff3aa47c2df3871470"
       url "https://github.com/cuonggt/omassh/releases/download/v#{version}/omassh_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "b3aa8f477a4b83ea608f742b1b1daaaa79a6691098eb2de5596c77387cbe475c"
+      sha256 "aac7425f10e0321f542fdc964dcae3531f75de1faa7c9d9cd122fd80ce8ba0cb"
       url "https://github.com/cuonggt/omassh/releases/download/v#{version}/omassh_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "5a02f47e6afb7df700eb85d5140ac64c6fe76dfd10882b4a19a00a1dbff23384"
+      sha256 "a78b0cb731379a6f1afbc72ce5a0533e44fb09c9fcfb5ba319bca0b2b68dce88"
       url "https://github.com/cuonggt/omassh/releases/download/v#{version}/omassh_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "8faa807778048fd9b66594a9707aea4ab9a0a0c93cf02cd21db377832d48db18"
+      sha256 "ea1724dd84d2c16ecd8959b4d7614006b1c5840a8d72f7b366d246368b65d311"
       url "https://github.com/cuonggt/omassh/releases/download/v#{version}/omassh_#{version}_linux_amd64.tar.gz"
     end
   end
